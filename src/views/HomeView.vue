@@ -20,9 +20,9 @@
                 </v-btn>
             </v-app-bar>
             <v-navigation-drawer v-model="drawer" temporary>
-                <v-list-item prepend-avatar="@/assets/dipti.jpg" title="John Leider"></v-list-item>
+                <!-- <v-list-item prepend-avatar="@/assets/dipti.jpg" title="John Leider"></v-list-item>
 
-                <v-divider></v-divider>
+                <v-divider></v-divider> -->
 
                 <v-list density="compact" nav>
                     <v-list-item prepend-icon="mdi-view-dashboard" title="Home" value="Home" @click="$router.push('/')"></v-list-item>
