@@ -68,7 +68,7 @@
     </v-card>
 </template>
 
-<script>
+<script lang="ts">
 export default {
     data: () => ({
         loading: false,
