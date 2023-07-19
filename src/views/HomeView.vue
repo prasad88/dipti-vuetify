@@ -1,12 +1,15 @@
 <template>
-    <v-card>
+    <v-card  class="main-navbar">
         <v-layout>
             <!-- <v-system-bar color="deep-purple darken-3"></v-system-bar> -->
 
-            <v-app-bar color="light-blue-accent-3" prominent>
+            <v-app-bar class="main-navbar" prominent>
                 <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-
-                <v-toolbar-title @click="$router.push('/')">Dr Dipti's Clinic</v-toolbar-title>
+                <v-img max-height="40px" max-width="40px" class="mx-auto" src="@/assets/logo2.png" />
+                <v-toolbar-title @click="$router.push('/')">
+                    
+                    Dr Dipti's Clinic
+                </v-toolbar-title>
 
                 <v-spacer></v-spacer>
 
@@ -29,7 +32,8 @@
                     <v-list-item prepend-icon="mdi-information-outline" title="About" value="About" @click="$router.push('/about')"></v-list-item>
                     <v-list-item prepend-icon="mdi-pill" title="Services" value="Services" @click="$router.push('/services')"></v-list-item>
                     <v-list-item prepend-icon="mdi-forum" title="Blog" value="Blog" @click="$router.push('/blog')"></v-list-item>
-                    <v-list-item prepend-icon="mdi-cellphone-marker" title="Contact us" value="Contact us" @click="$router.push('/contactus')"></v-list-item>
+                    <v-list-item prepend-icon="mdi-cellphone-marker" title="Contact us" value="Contact us"
+                        @click="$router.push('/contactus')"></v-list-item>
                 </v-list>
             </v-navigation-drawer>
 
@@ -59,4 +63,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.main-navbar{
+    background-color: #F7F7F5;
+}
+</style>

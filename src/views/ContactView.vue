@@ -1,16 +1,14 @@
 <template>
-    <v-card :loading="loading" class="mx-auto my-12" max-width="374">
+    <v-card :loading="loading" class="mx-auto my-12" max-width="700">
         <template v-slot:loader="{ isActive }">
             <v-progress-linear :active="isActive" color="deep-purple" height="4" indeterminate></v-progress-linear>
         </template>
 
         <div class="mapouter">
             <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=pink city wakad&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                    href="https://connectionsgame.org/">Connections Game</a></div>
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=pink city wakad&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
         </div>
-
-
         <v-card-item>
             <v-card-title>Dr Dipti's Clinic</v-card-title>
 
@@ -30,7 +28,8 @@
                 </div>
             </v-row>
             <div class="my-4 text-subtitle-1">
-                <div class="text-h5"><v-icon icon="mdi-phone" color="light-blue-accent-3"></v-icon><a class="text-h5" href="tel:+918669664843">866 966 4843</a></div>
+                <div class="text-h5"><v-icon icon="mdi-phone" color="light-blue-accent-3"></v-icon><a class="text-h5" href="tel:+918669664843">866 966
+                        4843</a></div>
             </div>
 
             <div class="my-4 text-subtitle-1">
@@ -90,18 +89,18 @@ export default {
     position: relative;
     text-align: right;
     width: 100%;
-    height: 400px;
+    
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     width: 100%;
-    height: 400px;
+   
 }
 
 .gmap_iframe {
-    height: 400px !important;
+    height: 300px !important;
 }
 
 a {

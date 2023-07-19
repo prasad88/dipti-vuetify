@@ -1,40 +1,40 @@
 <template>
-    <v-footer class="bg-light-blue-accent-3" app>
-      <v-row justify="center" no-gutters>
-        <v-btn
-          v-for="link in links"
-          :key="link"
-          color="white"
-          variant="text"
-          class="mx-2"
-          rounded="xl"
-        >
-          {{ link }}
-        </v-btn>
-        <v-col class="text-center mt-4" cols="12">
-          {{ new Date().getFullYear() }} — <strong>© Dr Dipti's Clinic</strong>
-        </v-col>
-      </v-row>
-    </v-footer>
-  </template>
+  <v-footer class="d-flex flex-column" app>
+    <div class="bg-light-blue-darken-4 d-flex w-100 align-center px-4">
+      <!-- <strong>Get connected with us on social networks!</strong> -->
 
+      <v-spacer></v-spacer>
+
+      <v-btn
+        v-for="icon in icons"
+        :key="icon"
+        class="mx-4"
+        :icon="icon"
+        variant="plain"
+        size="small"
+      ></v-btn>
+    </div>
+
+    <div class="px-4 py-2 bg-light-blue-darken-4 text-center w-100">
+      {{ new Date().getFullYear() }} — <strong>© Dr Dipti's Clinic</strong>
+    </div>
+  </v-footer>
+</template>
 <script lang="ts">
 export default {
-    name: 'MainFooter',
     data: () => ({
-      links: [
-        'Home',
-        'About Us',
-        'Services',
-        'Blog',
-        'Contact Us',
+      icons: [
+        'mdi-facebook',
+        'mdi-twitter',
+        'mdi-linkedin',
+        'mdi-instagram',
       ],
     }),
   }
 </script>
 
 <style>
-v-footer{
-    background-color: #00acee;
+.v-footer{
+    background-color: #0f4879;;
 }
 </style>

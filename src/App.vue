@@ -11,3 +11,11 @@
   import HomeView from '@/views/HomeView.vue'
   import MainFooter from '@/components/MainFooter.vue'
 </script>
+
+<style>
+body{
+  color: #0f4879;
+}
+ 
+
+</style>
