@@ -24,7 +24,8 @@ const myCustomLightTheme = {
     info: '#2196F3',
     success: '#4CAF50',
     warning: '#FB8C00',
-    text: '#0f4879'
+    text: '#0f4879',
+    site: '#880015'
   },
 }
 

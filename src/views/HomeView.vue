@@ -1,13 +1,12 @@
 <template>
-    <v-card  class="main-navbar">
+    <v-card>
         <v-layout>
             <!-- <v-system-bar color="deep-purple darken-3"></v-system-bar> -->
 
-            <v-app-bar class="main-navbar" prominent>
+            <v-app-bar class="main-navbar" color="site" prominent>
                 <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-                <v-img max-height="40px" max-width="40px" class="mx-auto" src="@/assets/logo2.png" />
+                <!-- <v-img max-height="40px" max-width="40px" class="mx-auto" src="@/assets/logo2.png" /> -->
                 <v-toolbar-title @click="$router.push('/')">
-                    
                     Dr Dipti's Clinic
                 </v-toolbar-title>
 
@@ -65,6 +64,10 @@ export default {
 
 <style scoped>
 .main-navbar{
-    background-color: #F7F7F5;
+    background-color:#880015;
 }
+.v-app-bar {
+    background-color: #880015;
+}
+
 </style>

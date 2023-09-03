@@ -20,7 +20,8 @@ export default defineConfig({
   define: { 'process.env': {} },
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      './runtimeConfig': './runtimeConfig.browser'
     },
     extensions: [
       '.js',
@@ -32,6 +33,7 @@ export default defineConfig({
       '.vue',
     ],
   },
+  
   server: {
     port: 3000,
   },

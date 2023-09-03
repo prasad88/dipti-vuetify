@@ -1,6 +1,6 @@
 <template>
-  <v-footer class="d-flex flex-column" app>
-    <div class="bg-light-blue-darken-4 d-flex w-100 align-center px-4">
+  <v-footer class="d-flex flex-column" color="site"  app>
+    <div class="d-flex w-100 align-center px-4">
       <!-- <strong>Get connected with us on social networks!</strong> -->
 
       <v-spacer></v-spacer>
@@ -15,7 +15,7 @@
       ></v-btn>
     </div>
 
-    <div class="px-4 py-2 bg-light-blue-darken-4 text-center w-100">
+    <div class="px-4 text-center w-100">
       {{ new Date().getFullYear() }} — <strong>© Dr Dipti's Clinic</strong>
     </div>
   </v-footer>
@@ -35,6 +35,6 @@ export default {
 
 <style>
 .v-footer{
-    background-color: #0f4879;;
+    background-color: #880015;
 }
 </style>
