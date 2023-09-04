@@ -107,13 +107,13 @@ export default {
     background: url('@/assets/background.png') center center;
     background-size: cover;
     color: #FFFFFF;
-    /* text-shadow: 0 0 1px #000, 0 0 1px #000; */
     background-position-y: 80%;
 }
 
 .text-main {
     background-color: #FFFFFF;
-    background: rgba(136, 0, 21, .2)
+    background: rgba(136, 0, 21, .2);
+    text-shadow: 0 0 1px #000, 0 0 1px #000;
 }
 
 @media only screen and (max-width: 1026px) {
@@ -123,10 +123,12 @@ export default {
 }
 .text-card1{
     background: rgba(87, 125, 186, .4);
+    text-shadow: 0 0 1px #000, 0 0 1px #000;
 }
 
 .text-card2{
-    background: rgba(87, 171, 72, .2);
+    background: rgba(87, 171, 72, .6);
+    text-shadow: 0 0 1px #000, 0 0 1px #000;
 }
 img {
     filter: blur(8px);

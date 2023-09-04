@@ -50,20 +50,18 @@
                 <v-chip>1:30PM</v-chip>
                 <v-chip>2:30PM</v-chip>
                 <v-chip>5:30PM</v-chip>
-
                 <v-chip>7:30PM</v-chip>
-
                 <v-chip>8:00PM</v-chip>
-
                 <v-chip>9:00PM</v-chip>
             </v-chip-group>
         </div>
 
         <v-card-actions>
             <v-btn color="light-blue-accent-3" variant="text" @click="reserve">
-                Reserve
+                Book appointment
             </v-btn>
         </v-card-actions>
+
     </v-card>
 </template>
 
