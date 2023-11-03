@@ -2,7 +2,7 @@
     <div>
         <v-container class="home-container">
             <v-row class="home-container">
-                <v-col class="text-center mt-4 "  cols="12">
+                <v-col class="text-center mt-4 " cols="12">
                     <!-- <v-img max-width="100" class="mx-auto" src="@/assets/logo2.png" /> -->
                     <div class="text-main">
                         <v-text class="text-h3 logo-header">Dr Dipti's Clinic</v-text>
