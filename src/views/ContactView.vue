@@ -28,8 +28,7 @@
                 </div>
             </v-row>
             <div class="my-4 text-subtitle-1">
-                <div class="text-h5"><v-icon icon="mdi-phone" color="light-blue-accent-3"></v-icon><a class="text-h5" href="tel:+918669664843">866 966
-                        4843</a></div>
+                <div class="text-h5"><v-icon icon="mdi-phone" color="light-blue-accent-3"></v-icon><a class="text-h5" href="tel:+917977492264">797 749 2264</a></div>
             </div>
 
             <div class="my-4 text-subtitle-1">
