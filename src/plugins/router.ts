@@ -4,6 +4,7 @@ import AboutView from '@/views/AboutView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import BlogView from '@/views/BlogView.vue'
 import ContactView from '@/views/ContactView.vue'
+import PricingView from '@/views/PricingView.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -27,6 +28,10 @@ const router = createRouter({
         {
             path: '/contactus',
             component: ContactView,
+        },
+        {
+            path:'/pricing',
+            component: PricingView,
         }
     
     ]

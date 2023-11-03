@@ -29,6 +29,7 @@
                 <v-list density="compact" nav>
                     <v-list-item prepend-icon="mdi-view-dashboard" color="site" title="Home" value="Home" @click="$router.push('/')"></v-list-item>
                     <v-list-item prepend-icon="mdi-information-outline" color="site" title="About" value="About" @click="$router.push('/about')"></v-list-item>
+                    <v-list-item prepend-icon="mdi-currency-rupee" color="site" title="Pricing" value="Pricing" @click="$router.push('/pricing')"></v-list-item>
                     <v-list-item prepend-icon="mdi-pill" title="Services" color="site" value="Services" @click="$router.push('/services')"></v-list-item>
                     <v-list-item prepend-icon="mdi-forum" title="Blog" color="site" value="Blog" @click="$router.push('/blog')"></v-list-item>
                     <v-list-item prepend-icon="mdi-cellphone-marker" color="site" title="Contact us" value="Contact us"
