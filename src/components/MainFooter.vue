@@ -1,40 +1,39 @@
 <template>
-  <v-footer class="d-flex flex-column" color="site"  app>
-    <div class="d-flex w-100 align-center px-4">
-      <!-- <strong>Get connected with us on social networks!</strong> -->
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        v-for="icon in icons"
-        :key="icon"
-        class="mx-4"
-        :icon="icon"
-        variant="plain"
-        size="small"
-      ></v-btn>
-    </div>
-
-    <div class="px-4 text-center w-100">
-      {{ new Date().getFullYear() }} — <strong>© Dr Dipti's Clinic</strong>
-    </div>
+  <v-footer class="bg-grey-lighten-1" color="site">
+    <v-row justify="center" no-gutters>
+      <v-btn v-for="link in links" :key="link.link" color="white" @click="redirectToUrl(link.url)" variant="text" class="mx-2" rounded="xl">
+        {{ link.link }}
+      </v-btn>
+      <v-col class="text-center mt-4" cols="12">
+        {{ new Date().getFullYear() }} — <strong>© Dr Dipti's Clinic</strong>
+      </v-col>
+    </v-row>
   </v-footer>
 </template>
 <script lang="ts">
+import router from '@/plugins/router';
+
 export default {
-    data: () => ({
-      icons: [
-        'mdi-facebook',
-        'mdi-twitter',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
-    }),
+  data: () => ({
+    links: [
+      {link:'Home',url:'/'},
+      {link:'About',url:'/about'},
+      {link:'Pricing',url:'/pricing'},
+      {link:'Services',url:'/services'},
+      {link:'Blog',url:'/blog'},
+      {link:'Contact Us',url:'/contactus'}
+    ],
+  }),
+  methods: {
+    redirectToUrl(url:string){
+      router.push(url);
+    }
   }
+}
 </script>
 
 <style>
-.v-footer{
-    background-color: #880015;
+.v-footer {
+  background-color: #880015;
 }
 </style>
