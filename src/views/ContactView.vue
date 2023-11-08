@@ -56,9 +56,7 @@
         </div>
 
         <v-card-actions>
-            <v-btn color="light-blue-accent-3" variant="text" @click="reserve">
-                Book appointment
-            </v-btn>
+            <a href="https://forms.gle/8pMjwKXcz1tN1Gvr5"><v-btn width="100%" size="x-large" color="site" block rounded="lg">Book your appointment now</v-btn></a>
         </v-card-actions>
 
     </v-card>

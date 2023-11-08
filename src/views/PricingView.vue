@@ -51,7 +51,7 @@
         </v-card>
         <v-card>
           <template v-slot:title>
-            Laser Clensing
+            Laser Cleansing
           </template>
 
           <template v-slot:subtitle>
