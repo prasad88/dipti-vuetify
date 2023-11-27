@@ -19,8 +19,8 @@ export default {
       {link:'Home',url:'/'},
       {link:'About',url:'/about'},
       {link:'Pricing',url:'/pricing'},
-      {link:'Services',url:'/services'},
-      {link:'Blog',url:'/blog'},
+      /* {link:'Services',url:'/services'},
+      {link:'Blog',url:'/blog'}, */
       {link:'Contact Us',url:'/contactus'}
     ],
   }),

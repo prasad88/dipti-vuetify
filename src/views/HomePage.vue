@@ -11,7 +11,7 @@
                             pediatric care,
                             women's health, and chronic solutions, blending tradition with modern expertise for holistic care.</p>
                         <v-row style="padding-bottom: 10px;">
-                            <v-col> <v-img :width="1000" :height="250" aspect-ratio="16/9" cover src="@/assets/pink_med.jpg"></v-img></v-col>
+                            <v-col> <v-img cover src="@/assets/doctor.jpg"></v-img></v-col>
                             <!-- <v-col> <v-img aspect-ratio="16/9" cover src="@/assets/green_med.jpg"></v-img></v-col> -->
                         </v-row>
                         <v-text class="text-h6 logo-header">Call Now</v-text>
