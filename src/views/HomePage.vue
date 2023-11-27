@@ -7,13 +7,18 @@
                     <div class="text-main">
                         <v-text class="text-h3 logo-header">Dr Dipti's Clinic</v-text>
                         <p class="text-h5">Multispeciality Homeopathy Clinic</p>
-                        <p class="text-body-1">We offer tailored healthcare, including infertility treatments, homeopathy for natural healing, skin care, pediatric care,
+                        <p class="text-body-1">We offer tailored healthcare, including infertility treatments, homeopathy for natural healing, skin care,
+                            pediatric care,
                             women's health, and chronic solutions, blending tradition with modern expertise for holistic care.</p>
                         <v-row style="padding-bottom: 10px;">
                             <v-col> <v-img :width="1000" :height="250" aspect-ratio="16/9" cover src="@/assets/pink_med.jpg"></v-img></v-col>
                             <!-- <v-col> <v-img aspect-ratio="16/9" cover src="@/assets/green_med.jpg"></v-img></v-col> -->
                         </v-row>
-                        <a href="https://forms.gle/8pMjwKXcz1tN1Gvr5"><v-btn width="100%" size="x-large" color="site">Book your appointment now</v-btn></a>
+                        <v-text class="text-h6 logo-header">Call Now</v-text>
+                        <a href="tel:+917977492264"><v-btn size="x-large" color="site"  width="100%">
+                            <v-icon icon="mdi-phone"></v-icon>7977492264</v-btn></a>
+                        <!-- <a href="https://forms.gle/8pMjwKXcz1tN1Gvr5"><v-btn width="100%" size="x-large" color="site">Book your appointment
+                                now</v-btn></a> -->
                         <!-- <p class="text-h6"> Your journey to better health starts here, where we prioritize your well-being above all else.</p> -->
                     </div>
                 </v-col>
